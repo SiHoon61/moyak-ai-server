@@ -134,5 +134,3 @@ def add_eachpill(chat_id, transformed_name, image_url):
     finally:
         connection.close()
 
-if __name__ == '__main__':
-    app.run(debug=True)
